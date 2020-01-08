@@ -22,6 +22,8 @@ In this example, I am going to add a new tag to my VMs with the function ```addn
 
 2) Now that its ready, we can run our simple python script to perform the tagging operations on NSX-T. This script is relying on the requests libray in Python. Hence, it is necessary to do a `pip install requests`. (I am running `Python 3.8` in my environment)
 
+![script](https://github.com/leeadh/NSX-T_Python/blob/master/screenshots/executescript.png)
+
 3) Scroll to the NSX-T manager and you can see there are no tags assigned to the VMs
 
 ![VMsbeforetagging](https://github.com/leeadh/NSX-T_Python/blob/master/screenshots/VMsbeforetagging.png)
