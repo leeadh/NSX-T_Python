@@ -18,7 +18,7 @@ In this example, I am going to add a new tag to my VMs with the function ```addn
 
 1) First go to NSX-T manager and upload a self-signed certificate (in this case I am using pi-nsx-t-superuser). For generation of a self-signed cert, please refer to this link: https://docs.vmware.com/en/VMware-Validated-Design/5.0.1/com.vmware.vvd.sddc-nsxt-domain-deploy.doc/GUID-3F545B7F-97DA-4527-AB45-9B01FDABC653.html
 
-https://github.com/leeadh/NSX-T_Python/blob/master/screenshots/nsx-t%20manager.png
+![Test Image 4](https://github.com/leeadh/NSX-T_Python/blob/master/screenshots/nsx-t%20manager.png)
 
 2) Now that its ready, we can run our simple python script to perform the tagging operations on NSX-T. This script is relying on the requests libray in Python. Hence, it is necessary to do a `pip install requests`. (I am running `Python 3.8` in my environment)
 
