@@ -10,4 +10,10 @@ This python script use has 3 main functionalities
 - remove select tag to VM 
 - removes all tags from VM
 
-This script is intended for engineers to easily use Python to perform tagging/untagging operations on NSX-T
+This script is intended for engineers to easily use Python to perform tagging/untagging operations on NSX-T. 
+
+Steps
+
+1) First go to NSX-T manager and upload a self-signed certificate
+
+
