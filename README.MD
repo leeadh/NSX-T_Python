@@ -1,4 +1,10 @@
-This script is intended to help perform automated tagging on NSX-T for VMs. 
+## Summary
+
+This script is intended to help perform automated tagging on NSX-T for VMs. This is in relation to the blog post: https://www.linkedin.com/pulse/intrinsic-security-real-time-firewall-automation-based-arun-pc/. 
+
+One of the key tenets of Intrinsic Security is the ability to do real-time intelligent automation. Like an automated response to a change in the security posture of a device or user. This blog tries to demonstrate how we can leverage NSX automation to push downstream distributed firewall rules based on endpoint data. 
+
+In this we leverage DEM (Dynamic Environment Manager) to detect the endpoint properties and trigger a script to automate NSX distributed firewall provisioning.
 
 Pre-requisites:
 1) Deploy NSX-T manager
